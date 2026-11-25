@@ -1,0 +1,16 @@
+{
+ "code": "M202",
+ "connector": "RTO-144",
+ "type": "M202 Logic Latch",
+ "series": null,
+ "contacts": "",
+ "verified": null,
+ "derived": false,
+ "variant_of": null,
+ "pins": [],
+ "straps": [],
+ "power": [],
+ "sources": [
+  "Engineering/RTO-144/M202/M202.rto144.json"
+ ]
+}
