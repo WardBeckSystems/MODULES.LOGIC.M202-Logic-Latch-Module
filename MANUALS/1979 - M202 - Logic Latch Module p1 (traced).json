@@ -1,0 +1,53 @@
+{
+ "drawing": "Modules/LOGIC/M202/MANUALS/1979 - M202 - Logic Latch Module.pdf",
+ "page": 1,
+ "version": 1,
+ "trace": "_traces/974531f0bd5bd6d8-p1.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1395, 2000],
+  "mm": [301.2, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "1", "pages": "11"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [6.9, 0.9, 293.4, 409.6],
+ "outlines": {
+  "line": {"rings": 5, "straight": {"n": 624, "mm": 2764.7}, "curved": {"n": 76, "mm": 122.1}},
+  "text": {"rings": 121, "straight": {"n": 1614, "mm": 2199.4}, "curved": {"n": 408, "mm": 708.9}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 12,
+  "lines": [
+   {"mm": [101.7, 400.7, 266.0, 410.5], "text": "WARD-BECK SYSTEMS LTD_"},
+   {"mm": [32.8, 392.7, 264.9, 407.4], "text": "WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4"},
+   {"mm": [100.8, 389.1, 154.2, 395.5], "text": "TELEX: 065-25399"},
+   {"mm": [189.8, 388.8, 264.7, 395.0], "text": "TELEPHONE; 4161438-6550"},
+   {"mm": [127.6, 238.4, 174.0, 249.6], "text": "M2oz"},
+   {"mm": [106.7, 224.3, 194.7, 234.4], "text": "LoGic LATCH MODULE"},
+   {"mm": [78.8, 0.0, 232.1, 6.5], "text": "AND MANUFACTUPE Of PACFESSONAL AUOIO EQUIPMENT"},
+   {"mm": [57.4, 0.9, 77.3, 6.1], "text": "OESICN"}
+  ]
+ },
+ "title_block": {
+  "mm": [95.7, 392.1, 245.4, 419.1],
+  "from": "title-block words (training set)",
+  "text": ["WARD-BECK SYSTEMS LTD_", "WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4", "TELEX: 065-25399", "TELEPHONE; 4161438-6550"]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1395 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 7–293 mm across, 1–410 mm up",
+  "- **Outlines:** line 5 rings, 624 straight (2,765 mm) / 76 curved (122 mm); text 121 rings, 1,614 straight (2,199 mm) / 408 curved (709 mm)",
+  "- **Words (OCR):** 12 in 8 lines: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4 · TELEX: 065-25399 · TELEPHONE; 4161438-6550 · M2oz · LoGic LATCH MODULE · AND MANUFACTUPE Of PACFESSONAL AUOIO EQUIPMENT · OESICN",
+  "- **Title block:** (96, 392)–(245, 419) mm: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4 · TELEX: 065-25399 · TELEPHONE; 4161438-6550"
+ ]
+}

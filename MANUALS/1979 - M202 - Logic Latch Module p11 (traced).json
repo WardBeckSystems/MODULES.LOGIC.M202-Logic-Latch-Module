@@ -1,0 +1,108 @@
+{
+ "drawing": "Modules/LOGIC/M202/MANUALS/1979 - M202 - Logic Latch Module.pdf",
+ "page": 11,
+ "version": 1,
+ "trace": "_traces/974531f0bd5bd6d8-p11.svg",
+ "sheet": {
+  "number": "202-06-001",
+  "title": "",
+  "dtype": "06",
+  "type": "component layout",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [2000, 1906],
+  "mm": [431.8, 411.5],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "11", "pages": "11"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [5.4, 0.0, 431.9, 400.9],
+ "outlines": {
+  "line": {"rings": 199, "straight": {"n": 3934, "mm": 7961.7}, "curved": {"n": 994, "mm": 1106.3}},
+  "text": {"rings": 298, "straight": {"n": 3121, "mm": 3199.4}, "curved": {"n": 1037, "mm": 1244.8}},
+  "tb": {"rings": 308, "straight": {"n": 3925, "mm": 5273.5}, "curved": {"n": 1071, "mm": 1206.7}}
+ },
+ "circles": [
+  {"c": [45.6, 249.3], "r": 7.1, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [46.0, 351.8], "r": 5.7, "kind": "circle", "span": 360, "from": ["outline"], "stroke": 2.8},
+  {"c": [45.3, 249.1], "r": 4.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]}
+ ],
+ "boxes": [
+  {"mm": [31.1, 345.9, 34.5, 360.8], "w": 3.5, "h": 14.9, "from": "ring"},
+  {"mm": [19.4, 258.4, 34.5, 341.8], "w": 15.2, "h": 83.4, "from": "ring"},
+  {"mm": [66.9, 288.2, 106.1, 312.6], "w": 39.2, "h": 24.4, "from": "ring", "words": ["Ui", "74014"]},
+  {"mm": [30.7, 240.1, 33.9, 254.8], "w": 3.2, "h": 14.7, "from": "ring"},
+  {"mm": [347.6, 62.4, 418.2, 68.9], "w": 70.6, "h": 6.5, "from": "ring"},
+  {"mm": [318.2, 62.4, 332.1, 68.2], "w": 13.8, "h": 5.8, "from": "ring", "in_title_block": true},
+  {"mm": [332.9, 62.4, 346.5, 68.2], "w": 13.6, "h": 5.8, "from": "ring", "in_title_block": true}
+ ],
+ "text": {
+  "words": 31,
+  "lines": [
+   {"mm": [119.8, 378.9, 154.4, 387.5], "text": "WBS"},
+   {"mm": [332.9, 351.3, 362.3, 385.3], "text": "I0"},
+   {"mm": [126.3, 369.0, 147.9, 375.5], "text": "caada"},
+   {"mm": [298.8, 368.1, 308.5, 373.4], "text": "U6"},
+   {"mm": [122.2, 358.4, 151.3, 368.7], "text": "9-102"},
+   {"mm": [62.2, 320.8, 151.8, 350.1], "text": "44# U2"},
+   {"mm": [209.6, 334.6, 219.4, 339.9], "text": "U4"},
+   {"mm": [277.6, 328.6, 293.4, 339.9], "text": "692,"},
+   {"mm": [134.1, 326.9, 157.0, 334.5], "text": "74C42"},
+   {"mm": [204.9, 326.4, 225.6, 334.1], "text": "74C76"},
+   {"mm": [121.8, 302.3, 142.7, 313.1], "text": "144"},
+   {"mm": [247.4, 302.7, 266.4, 313.0], "text": "1941"},
+   {"mm": [80.3, 301.4, 89.6, 307.9], "text": "Ui"},
+   {"mm": [145.7, 292.3, 170.1, 307.4], "text": "8888"},
+   {"mm": [74.5, 293.8, 93.9, 300.8], "text": "74014"},
+   {"mm": [246.3, 258.4, 293.4, 278.8], "text": "18 296"},
+   {"mm": [138.2, 259.3, 161.5, 273.9], "text": "79c00"},
+   {"mm": [204.2, 258.9, 225.6, 274.0], "text": "74676"},
+   {"mm": [247.0, 225.0, 267.5, 236.7], "text": "J33"},
+   {"mm": [279.8, 226.0, 291.7, 238.0], "text": "Ge"},
+   {"mm": [318.7, 62.6, 346.3, 67.9], "text": "Issuidate"},
+   {"mm": [291.2, 46.9, 326.9, 55.5], "text": "WBS"},
+   {"mm": [365.3, 30.0, 383.7, 38.2], "text": "M202"},
+   {"mm": [330.3, 22.5, 377.4, 30.6], "text": "Lotic LATCH"},
+   {"mm": [380.0, 22.5, 408.1, 30.6], "text": "mooule"},
+   {"mm": [334.2, 15.3, 405.9, 23.5], "text": "COMPONENT LAYOUT"},
+   {"mm": [291.7, 6.9, 306.8, 12.4], "text": "sc"},
+   {"mm": [348.0, 0.9, 386.9, 8.3], "text": "202-06-001"}
+  ]
+ },
+ "title_block": {
+  "mm": [111.2, 38.7, 354.9, 395.7],
+  "from": "title-block words (training set)",
+  "text": [
+   "WBS",
+   "I0",
+   "caada",
+   "U6",
+   "9-102",
+   "U4",
+   "692,",
+   "74C42",
+   "74C76",
+   "144",
+   "1941",
+   "8888",
+   "18 296",
+   "79c00",
+   "74676",
+   "J33",
+   "Ge",
+   "Issuidate",
+   "WBS"
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** component layout 202-06-001, size B (assumed) 432 × 412 mm, 2000 × 1906 px traced (0.216 mm/px)",
+  "- **Ink extent:** 5–432 mm across, 0–401 mm up",
+  "- **Outlines:** line 199 rings, 3,934 straight (7,962 mm) / 994 curved (1,106 mm); text 298 rings, 3,121 straight (3,199 mm) / 1,037 curved (1,245 mm); tb 308 rings, 3,925 straight (5,274 mm) / 1,071 curved (1,207 mm)",
+  "- **Circles and arcs:** 3 circles, 0 arcs; largest r 7.1 @ (45.6, 249.3), r 5.7 @ (46.0, 351.8), r 4.2 @ (45.3, 249.1)",
+  "- **Closed boxes:** 7 (2 in the title block); named: Ui 74014",
+  "- **Words (OCR):** 31 in 28 lines: WBS · I0 · caada · U6 · 9-102 · 44# U2 · U4 · 692, · 74C42 · 74C76 · 144 · 1941",
+  "- **Title block:** (111, 39)–(355, 396) mm: WBS · I0 · caada · U6 · 9-102 · U4 · 692, · 74C42 · 74C76 · 144 · 1941 · 8888 · 18 296 · 79c00 · 74676 · J33 · Ge · Issuidate · WBS"
+ ]
+}
