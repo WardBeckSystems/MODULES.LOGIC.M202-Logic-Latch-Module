@@ -22,7 +22,7 @@ Wiki page: [M202](../../../../PAGES/M202.md)
 - **Words (OCR):** 52 in 46 lines: NOTEs · ACL · Resistors ARE · specifieD Otherwise · LAST · Are · Cio · USE · PCB 9-102 · CRI · CRS · 74c4
 - **Wiring (first pass):** 119 connected wire groups from 784 runs; labelled ends: 154 mm → WBS; 144 mm → WBS; 68 mm → 74c00; 61 mm → 412, CRI}; 53 mm → 74c4, 435
 
-Every curve, box, word and wire group: [1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC (traced).json](../SCHEMATICS/1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC%20(traced).json) (the CAD file: `1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC (traced).json](../SCHEMATICS/1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC (traced).dxf`).
 
 ## Full text
 

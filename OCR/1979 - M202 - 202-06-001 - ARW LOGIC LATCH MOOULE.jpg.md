@@ -21,7 +21,7 @@ Wiki page: [M202](../../../../PAGES/M202.md)
 - **Words (OCR):** 29 in 27 lines: WBS · 14 · U6 · 9-102 · 01 · U2 · 492 · U4 · 7C42 · 74676 · HN · 74414
 - **Title block:** (111, 12)–(396, 396) mm: WBS · 14 · U6 · 9-102 · 01 · U2 · 492 · U4 · 7C42 · 74676 · HN · TIz · J8 Z96 · 74c00 · 74676 · Issn oate · WBS · WARD-Beck · M202 · Arw · lOtic LATCH · mooule · CKD: · COMPONENT LAYOUT · Apr
 
-Every curve, box, word and wire group: [1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE (traced).json](../SCHEMATICS/1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE%20(traced).json) (the CAD file: `1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE (traced).json](../SCHEMATICS/1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE%20%28traced%29.json) (the CAD file: `1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE (traced).dxf`).
 
 ## Full text
 

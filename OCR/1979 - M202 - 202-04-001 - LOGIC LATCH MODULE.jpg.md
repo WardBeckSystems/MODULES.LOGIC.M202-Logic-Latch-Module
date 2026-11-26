@@ -19,7 +19,7 @@ Wiki page: [M202](../../../../PAGES/M202.md)
 - **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (22.8, 74.4), r 2.5 @ (93.3, 74.7)
 - **Closed boxes:** 64
 
-Every curve, box, word and wire group: [1979 - M202 - 202-04-001 - LOGIC LATCH MODULE (traced).json](../MECHANICAL/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE%20(traced).json) (the CAD file: `1979 - M202 - 202-04-001 - LOGIC LATCH MODULE (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - 202-04-001 - LOGIC LATCH MODULE (traced).json](../MECHANICAL/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE%20%28traced%29.json) (the CAD file: `1979 - M202 - 202-04-001 - LOGIC LATCH MODULE (traced).dxf`).
 
 ## Full text
 

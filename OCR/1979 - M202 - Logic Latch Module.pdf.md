@@ -22,7 +22,7 @@ Wiki page: [M202](../../../../PAGES/M202.md)
 - **Words (OCR):** 12 in 8 lines: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4 · TELEX: 065-25399 · TELEPHONE; 4161438-6550 · M2oz · LoGic LATCH MODULE · AND MANUFACTUPE Of PACFESSONAL AUOIO EQUIPMENT · OESICN
 - **Title block:** (96, 392)–(245, 419) mm: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4 · TELEX: 065-25399 · TELEPHONE; 4161438-6550
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p1 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p1%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p1 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p1 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p1%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p1 (traced).dxf`).
 
 ### Page 2
 
@@ -32,7 +32,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p1 (tra
 - **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (143.9, 50.9)
 - **Words (OCR):** 355 in 188 lines: WAAD-BECX SYSTEMS LTD; · CIRCUIT DESCRIPTION · M202 · Logic LATCH MQDULE · The M202 Logic · Latch module accepts · three momentary · pushbutton · inputs and stores or · Iatches the status · of the · pushbutton depressed .
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p2 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p2%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p2 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p2 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p2%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p2 (traced).dxf`).
 
 ### Page 3
 
@@ -41,7 +41,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p2 (tra
 - **Outlines:** line 41 rings, 895 straight (3,335 mm) / 160 curved (257 mm); text 2,050 rings, 14,858 straight (16,401 mm) / 4,456 curved (7,124 mm)
 - **Words (OCR):** 338 in 173 lines: WAAD-BECX SYSTEms LTD; · ciRcuIT DESCRiPTION · M202 · Logic LATCH MODULE · Aside from · clearing the three · Iatches, the · negative-going outPuts · generated at · pin · or · of u2 wili preset
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p3 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p3%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p3 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p3 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p3%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p3 (traced).dxf`).
 
 ### Page 4
 
@@ -53,7 +53,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p3 (tra
 - **Dots (junctions):** 3
 - **Words (OCR):** 67 in 37 lines: WAAD-BECX Systems LTD_ · INIEGRATED_CIRCUII_DATA · 24042 · BCD · IO DECIMAL_DECODER · The · 74c42 one-of-ten · decoder is monolithic · CMOS · circuit · This · decoder Produces Togic
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p4 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p4%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p4 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p4 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p4%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p4 (traced).dxf`).
 
 ### Page 5
 
@@ -64,7 +64,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p4 (tra
 - **Dots (junctions):** 4
 - **Words (OCR):** 126 in 78 lines: WAAD-BECX systems LTD. · INTEGRATED CIRCUII_DAIA · 24CZ6 · DUAL J-K FLIP-FLOP · WIIHCLEAR_AND_PRESEI · The · 74c76 J-k flip-fTop is · monolithic CMOS circuit · Each · flip- · flop has · independent
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p5 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p5%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p5 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p5 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p5%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p5 (traced).dxf`).
 
 ### Page 6
 
@@ -76,7 +76,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p5 (tra
 - **Words (OCR):** 76 in 69 lines: WARD-BECX SYSTEms LTD · PARIS LISI · M202 · LOGIC LAICH_MODULE · PARI DESCRIPIION · MFG · MFG PART NUMBER · Ez Capacitor · 0.1 uF/35 · Kemet · T3904104M035As · 83
 - **Title block:** (4, 397)–(113, 421) mm: WARD-BECX SYSTEms LTD
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p6 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p6%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p6 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p6 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p6%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p6 (traced).dxf`).
 
 ### Page 7
 
@@ -87,7 +87,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p6 (tra
 - **Closed boxes:** 14
 - **Words (OCR):** 74 in 70 lines: WAAD-BECX systems LTD_ · OTJ · PARIS LISI · M202 LOGIC · LAICH_MODULE · PART · DESCRIPTION · MFG · MFG_PART NUMBER · Jems} · Nationa] · 2n3569
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p7 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p7%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p7 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p7 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p7%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p7 (traced).dxf`).
 
 ### Page 8
 
@@ -99,7 +99,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p7 (tra
 - **Words (OCR):** 64 in 53 lines: WAAD-BECK · PARIS LISI · M202 LOGIC LAICH · MODULE · PART · DESCRIPTION · MFG · MFG · PARI_NUMBER · Philips · R26 · Resistor
 - **Title block:** (3, 34)–(68, 421) mm: WAAD-BECK · PART · R26 · R27 · R28 · R29 · R30 · R31 · R32 · R33 · R34 · R35 · R36 · R37 · R38 · R39 · R40 · R41 · U6 · WBS recommends the us e
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p8 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p8%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p8 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p8 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p8%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p8 (traced).dxf`).
 
 ### Page 9
 
@@ -113,7 +113,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p8 (tra
 - **Words (OCR):** 42 in 39 lines: NOTES · TLULY · ALL · resistors · ALL Capacitors · Specified Otherwise · LAST · Are · Crzi _ · USE PCB · 9-102 · CI
 - **Wiring (first pass):** 123 connected wire groups from 784 runs; labelled ends: 151 mm → 74042, RK, Lha, 12; 149 mm → WBS; 144 mm → WBS; 134 mm → RK, Lha, 12; 116 mm → CRI
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p9 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p9%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p9 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p9 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p9%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p9 (traced).dxf`).
 
 ### Page 10
 
@@ -125,7 +125,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p9 (tra
 - **Dots (junctions):** 2
 - **Words (OCR):** 55 in 36 lines: NC · A| 1 +24v · CTL · Input · B | 2 · CTL · Input · A2 · A1 · D| 4 · NC E|5 · NC
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p10 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p10%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p10 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p10 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p10%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p10 (traced).dxf`).
 
 ### Page 11
 
@@ -137,7 +137,7 @@ Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p10 (tr
 - **Words (OCR):** 31 in 28 lines: WBS · I0 · caada · U6 · 9-102 · 44# U2 · U4 · 692, · 74C42 · 74C76 · 144 · 1941
 - **Title block:** (111, 39)–(355, 396) mm: WBS · I0 · caada · U6 · 9-102 · U4 · 692, · 74C42 · 74C76 · 144 · 1941 · 8888 · 18 296 · 79c00 · 74676 · J33 · Ge · Issuidate · WBS
 
-Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p11 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p11%20(traced).json) (the CAD file: `1979 - M202 - Logic Latch Module p11 (traced).dxf`).
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p11 (traced).json](../MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p11%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p11 (traced).dxf`).
 
 ## Full text
 
