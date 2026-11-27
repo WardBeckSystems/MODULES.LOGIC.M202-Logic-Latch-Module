@@ -1,0 +1,197 @@
+{
+ "module": "M202",
+ "source": {
+  "file": "MANUALS/1979 - M202 - Logic Latch Module (2).pdf",
+  "pages": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "ocr_quality": 0.88,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The M202 Logic Latch mod.... re accepts three momentary push b u 1ton inputs and stores o r latches the stat.... soft hep.... a h button depressed. Only one of the t hrae stat.... s outp.... t swill bela tched a t any onetime.",
+    "Additional l y, ana lte rna te action typ ala tch Isp rov ided fora fourth pushbu tt on Input.",
+    "Inputs",
+    "The Input etrevn configuration Is Identical fora ll four pus hb....1ton I n p.... t a, With the control inputs floating, the open -e ir<;u;t voltage at the control pins I s app ro\", lmate l y +9 volts. The inputs are protected against Ina dv e r tenth ighv o ltage a p pl ica t ion and maybe safely operated a t potentials up to +30 volts. A n R/C network guards the inputs against the eHect s of switch bounce. Each Input c l r<;u it is followed by a n Inverting Schm ill trigger.",
+    "I n order to affect a change o f status, a logic \"0\" I s app lied to any oft he inputs, ranging from 0 to +2 volts, and having a minim.... m d u ration of 100 milliseconds.",
+    "Interlocking Three P u shbutton Cont..o l Logic",
+    "The function o f the t h r.... control inputs atp ins 2, Band 13 can be compared to that of a bank oft h r ee Inter locking p u shb.... tto n switches, wh e..e l h e operation o f anyone switch causes the other two tore lease.",
+    "This opera tl on I sac hie v ed in the following way.",
+    "U2 i s a BCD tod ec i ma l decoder, used asap rio r i t y decoder. Of the four available binary inputs, only the first three are being used, namely A (pint 5), a (pin 14) and C (pin 13). A s these Inputs ere Individual l y addressed with a logic \"1 \" level 0\";9 ln ating from the outputs of UI, the decoderw ill p..oduce a logic \"0 \" decimal outputs i gnal at output I (pin 2 }, output 2 (pin 3) or output ' (pin S). If more than one Input I sad dressed simultaneously, nod ecode.. output will result.",
+    "The t h r-ee decimal outputs a\"e combined via an OR gate consist ing o f",
+    "CR9, CR to and CR1 1, the output of which tr lgge.. s a oneshot multi v lb r-ato.. configured from two of the f o u.. gates contained I n U J.",
+    "A. nega t ive-going pulse o f about 20 milliseconds d u ration I s generated",
+    "at UJ, pin J. Routed via CRI 2, this pulse feeds the CLEAR Inputs o f",
+    "the R/ S type latches U4A, U4 Sand USA..",
+    "• 0,. - _...",
+    "o p",
+    "c:;, \" -i, > =nllO ~ 00 - ' 1£1)",
+    "a..., i.. g., '\" \",,1»::r",
+    "O-..l::J:T ~ !. '0.. It",
+    "... _.",
+    ".1:. ~ - ', e ~ o,",
+    "0 0",
+    "Vl;;",
+    "\" c roll",
+    "a III",
+    "..., n",
+    "o ~~ [;r m",
+    "o_ I -e 0c'",
+    "·,•..-,.-K \",- - • g:..... •--.. ••,.• • r -',.,- -_. III ll;;"
+   ]
+  },
+  {
+   "heading": "II '< I.,;;;-.. 3",
+   "paragraphs": [
+    "(II l;I",
+    "o • •Q. c_."
+   ]
+  },
+  {
+   "heading": "• 0 <0 _::I",
+   "paragraphs": [
+    "Cl c.",
+    "0 \"'_.",
+    "'\" Ill.:J"
+   ]
+  },
+  {
+   "heading": "-0' III",
+   "paragraphs": [
+    "...,- ca. III. \" H •'' c o ~",
+    "•o 0, 0' ••n 60 111 •n.:",
+    "• Ion",
+    "<> l '<;; (l - I -.s=.,0 It:T s:",
+    "c::r,,'<",
+    "•c s e cr <:1 =..'",
+    "• z..~g:!.:1~",
+    "•::r\"-ll O ~ \" l;I'. \"."
+   ]
+  },
+  {
+   "heading": "II C 0 C",
+   "paragraphs": [
+    "00.';; '- '':Tell",
+    "1M - - •., n",
+    "n Q:t",
+    "110(00",
+    ":JlO ll",
+    "= I !! s:",
+    "• \" g;.::;\".;.. n.i III",
+    "' on r \" • -.i s,",
+    "o - C_ n0 () 2'!l....",
+    "o 0",
+    "· •-, '0 ~,;l.; c o •:> -.. 3",
+    "n • 0 ~, c_ i0 • • ss ~<;'! o",
+    "• c.. 0 _.",
+    "cr;;\" '0",
+    ":J:T c _ Sl,:T\"",
+    "'< -. I <Q '~ o"
+   ]
+  },
+  {
+   "heading": "'., I 0 ·",
+   "paragraphs": [
+    "•• •>, 1) 0",
+    ". o• n o \" o ' I \" • o. ~ ~",
+    ";'< iii\" es \" ·: 0",
+    "':!. (l j 0:, '0::,",
+    ".an.,-.- • ··..:r-.",
+    "• >1,::.:> _.",
+    "! '0 l oil",
+    "• 0 ' • c C - 'Ill",
+    "• •, \". \">.\" \\ _ 3.> lJ' ~ III 0",
+    "o' -. \"0 '\".. 0 III lII B · c;:; g',, N ~ g..... ill !o a, c",
+    ", 0"
+   ]
+  },
+  {
+   "heading": ":T",
+   "paragraphs": [
+    "• H... I It...."
+   ]
+  },
+  {
+   "heading": "BCD to DECIMAL DECODER",
+   "paragraphs": [
+    "The 74C42: one often decoder I s a ~on o l ithf c CMOS c irc uft. This decoder produces a logic ' 0 ' at the output corresponding t oaf our b ft binary f nput frolll zero to nine, and a log f c ' I' at the other out puts. For bfnary inputs from tent o f 1f teen all outputs are logic ' 1 '."
+   ]
+  },
+  {
+   "heading": ", OUTPUTS",
+   "paragraphs": [
+    "• c o • • I\" \" \" ta \" \" \" •"
+   ]
+  },
+  {
+   "heading": "TOP VIEW",
+   "paragraphs": [
+    "s3 7"
+   ]
+  },
+  {
+   "heading": "TABLE",
+   "paragraphs": [
+    "0 c8 A 0 1 2 J 4 5,, 7 8",
+    "0 DOD 0 1 1 1 1 1 1 1 1 1 0 o 0 1 1 0 1 1 1 1 1 1 1 1 0 DID 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 100 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1",
+    "0 III 1 1 1 1 1 1 1 0 1 1",
+    "1 000 1 1 1 1 1 1 I 1 0 1",
+    "1 o 0 1",
+    "1 1 1 1 1 1 1 1 1 0"
+   ]
+  },
+  {
+   "heading": "74C4 2:",
+   "paragraphs": [
+    "INTEGRATE a CIRCUIT DATA"
+   ]
+  },
+  {
+   "heading": "74C76",
+   "paragraphs": [
+    "DUAL J -K FLIP - FLOP WITH CLEAR AND PRESET",
+    "The 74C76 J - K f11 pf lop is • monolithic CMOS circuit. Each flip flop has 1ndepe nde nt J, K, clock, clear and preset inputs as well as Q and \"lT outputs. The flip -flops are edge se ns H1ve tot he clock 1np ut and changes tate on the negative g01ng transition oft he clock pulses. Clear or preset is independent o f the clock and is ac compl t s bed by a low level on the r-espec e t ve input."
+   ]
+  },
+  {
+   "heading": "PRESET A",
+   "paragraphs": [
+    "jJ J CLEAR"
+   ]
+  },
+  {
+   "heading": "CLEAR A",
+   "paragraphs": [
+    "KpRESET~...J",
+    "KPRESETa"
+   ]
+  },
+  {
+   "heading": "TOP VIEW",
+   "paragraphs": [
+    "Hate 1: A 10g1 c ~ D \" on clear sets Q t o a logic \"0\". Hate Z: A 10g1c \" D ~ on preset sets Q t o a 10g1c ·1 \".",
+    "tn+l",
+    "TRUnt"
+   ]
+  },
+  {
+   "heading": "TABLE",
+   "paragraphs": [
+    "Preset",
+    "Clear",
+    "0 1 0 1 0 0 1",
+    "1 0 1 1 1. Q\"",
+    "1 1 0,",
+    "t n· b1t t 1me before clock pulse. · NO change 1n output",
+    "tn+l • b1t t 1me after clock pulse. from previous state"
+   ]
+  }
+ ]
+}

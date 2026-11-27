@@ -13,6 +13,242 @@ Ward-Beck Systems M202, 1979|12. Wiki page: [M202 on WBSps.ca](https://wardbecks
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 4 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 40 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [1 topic](FORUM.md): what owners and technicians said about it.
+
+## Circuit description
+
+From [1979 - M202 - Logic Latch Module (2).pdf](MANUALS/1979%20-%20M202%20-%20Logic%20Latch%20Module%20(2).pdf) pages 2-6 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+The M202 Logic Latch mod.... re accepts three momentary push b u 1ton inputs and stores o r latches the stat.... soft hep.... a h button depressed. Only one of the t hrae stat.... s outp.... t swill bela tched a t any onetime.
+
+Additional l y, ana lte rna te action typ ala tch Isp rov ided fora fourth pushbu tt on Input.
+
+Inputs
+
+The Input etrevn configuration Is Identical fora ll four pus hb....1ton I n p.... t a, With the control inputs floating, the open -e ir&lt;;u;t voltage at the control pins I s app ro&quot;, lmate l y +9 volts. The inputs are protected against Ina dv e r tenth ighv o ltage a p pl ica t ion and maybe safely operated a t potentials up to +30 volts. A n R/C network guards the inputs against the eHect s of switch bounce. Each Input c l r&lt;;u it is followed by a n Inverting Schm ill trigger.
+
+I n order to affect a change o f status, a logic &quot;0&quot; I s app lied to any oft he inputs, ranging from 0 to +2 volts, and having a minim.... m d u ration of 100 milliseconds.
+
+Interlocking Three P u shbutton Cont..o l Logic
+
+The function o f the t h r.... control inputs atp ins 2, Band 13 can be compared to that of a bank oft h r ee Inter locking p u shb.... tto n switches, wh e..e l h e operation o f anyone switch causes the other two tore lease.
+
+This opera tl on I sac hie v ed in the following way.
+
+U2 i s a BCD tod ec i ma l decoder, used asap rio r i t y decoder. Of the four available binary inputs, only the first three are being used, namely A (pint 5), a (pin 14) and C (pin 13). A s these Inputs ere Individual l y addressed with a logic &quot;1 &quot; level 0&quot;;9 ln ating from the outputs of UI, the decoderw ill p..oduce a logic &quot;0 &quot; decimal outputs i gnal at output I (pin 2 }, output 2 (pin 3) or output ' (pin S). If more than one Input I sad dressed simultaneously, nod ecode.. output will result.
+
+The t h r-ee decimal outputs a&quot;e combined via an OR gate consist ing o f
+
+CR9, CR to and CR1 1, the output of which tr lgge.. s a oneshot multi v lb r-ato.. configured from two of the f o u.. gates contained I n U J.
+
+A. nega t ive-going pulse o f about 20 milliseconds d u ration I s generated
+
+at UJ, pin J. Routed via CRI 2, this pulse feeds the CLEAR Inputs o f
+
+the R/ S type latches U4A, U4 Sand USA..
+
+• 0,. - _...
+
+o p
+
+c:;, &quot; -i, &gt; =nllO ~ 00 - ' 1£1)
+
+a..., i.. g., '&quot; &quot;,,1»::r
+
+O-..l::J:T ~ !. '0.. It
+
+... _.
+
+.1:. ~ - ', e ~ o,
+
+0 0
+
+Vl;;
+
+&quot; c roll
+
+a III
+
+..., n
+
+o ~~ [;r m
+
+o_ I -e 0c'
+
+·,•..-,.-K &quot;,- - • g:..... •--.. ••,.• • r -',.,- -_. III ll;;
+
+**II '&lt; I.,;;;-.. 3**
+
+(II l;I
+
+o • •Q. c_.
+
+**• 0 &lt;0 _::I**
+
+Cl c.
+
+0 &quot;'_.
+
+'&quot; Ill.:J
+
+**-0' III**
+
+...,- ca. III. &quot; H •'' c o ~
+
+•o 0, 0' ••n 60 111 •n.:
+
+• Ion
+
+&lt;&gt; l '&lt;;; (l - I -.s=.,0 It:T s:
+
+c::r,,'&lt;
+
+•c s e cr &lt;:1 =..'
+
+• z..~g:!.:1~
+
+•::r&quot;-ll O ~ &quot; l;I'. &quot;.
+
+**II C 0 C**
+
+00.';; '- '':Tell
+
+1M - - •., n
+
+n Q:t
+
+110(00
+
+:JlO ll
+
+= I !! s:
+
+• &quot; g;.::;&quot;.;.. n.i III
+
+' on r &quot; • -.i s,
+
+o - C_ n0 () 2'!l....
+
+o 0
+
+· •-, '0 ~,;l.; c o •:&gt; -.. 3
+
+n • 0 ~, c_ i0 • • ss ~&lt;;'! o
+
+• c.. 0 _.
+
+cr;;&quot; '0
+
+:J:T c _ Sl,:T&quot;
+
+'&lt; -. I &lt;Q '~ o
+
+**'., I 0 ·**
+
+•• •&gt;, 1) 0
+
+. o• n o &quot; o ' I &quot; • o. ~ ~
+
+;'&lt; iii&quot; es &quot; ·: 0
+
+':!. (l j 0:, '0::,
+
+.an.,-.- • ··..:r-.
+
+• &gt;1,::.:&gt; _.
+
+! '0 l oil
+
+• 0 ' • c C - 'Ill
+
+• •, &quot;. &quot;&gt;.&quot; \ _ 3.&gt; lJ' ~ III 0
+
+o' -. &quot;0 '&quot;.. 0 III lII B · c;:; g',, N ~ g..... ill !o a, c
+
+, 0
+
+**:T**
+
+• H... I It....
+
+**BCD to DECIMAL DECODER**
+
+The 74C42: one often decoder I s a ~on o l ithf c CMOS c irc uft. This decoder produces a logic ' 0 ' at the output corresponding t oaf our b ft binary f nput frolll zero to nine, and a log f c ' I' at the other out puts. For bfnary inputs from tent o f 1f teen all outputs are logic ' 1 '.
+
+**, OUTPUTS**
+
+• c o • • I&quot; &quot; &quot; ta &quot; &quot; &quot; •
+
+**TOP VIEW**
+
+s3 7
+
+**TABLE**
+
+0 c8 A 0 1 2 J 4 5,, 7 8
+
+0 DOD 0 1 1 1 1 1 1 1 1 1 0 o 0 1 1 0 1 1 1 1 1 1 1 1 0 DID 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 100 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1
+
+0 III 1 1 1 1 1 1 1 0 1 1
+
+1 000 1 1 1 1 1 1 I 1 0 1
+
+1 o 0 1
+
+1 1 1 1 1 1 1 1 1 0
+
+**74C4 2:**
+
+INTEGRATE a CIRCUIT DATA
+
+**74C76**
+
+DUAL J -K FLIP - FLOP WITH CLEAR AND PRESET
+
+The 74C76 J - K f11 pf lop is • monolithic CMOS circuit. Each flip flop has 1ndepe nde nt J, K, clock, clear and preset inputs as well as Q and &quot;lT outputs. The flip -flops are edge se ns H1ve tot he clock 1np ut and changes tate on the negative g01ng transition oft he clock pulses. Clear or preset is independent o f the clock and is ac compl t s bed by a low level on the r-espec e t ve input.
+
+**PRESET A**
+
+jJ J CLEAR
+
+**CLEAR A**
+
+KpRESET~...J
+
+KPRESETa
+
+**TOP VIEW**
+
+Hate 1: A 10g1 c ~ D &quot; on clear sets Q t o a logic &quot;0&quot;. Hate Z: A 10g1c &quot; D ~ on preset sets Q t o a 10g1c ·1 &quot;.
+
+tn+l
+
+TRUnt
+
+**TABLE**
+
+Preset
+
+Clear
+
+0 1 0 1 0 0 1
+
+1 0 1 1 1. Q&quot;
+
+1 1 0,
+
+t n· b1t t 1me before clock pulse. · NO change 1n output
+
+tn+l • b1t t 1me after clock pulse. from previous state
+
+</details>
+
+<!-- /module data -->
+
 ## Photos
 
 _Photographs of the module itself: front, back, inside, racked._
