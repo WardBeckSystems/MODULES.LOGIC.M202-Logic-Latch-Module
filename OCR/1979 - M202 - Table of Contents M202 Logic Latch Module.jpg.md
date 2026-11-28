@@ -1,5 +1,5 @@
 # 1979 - M202 - Table of Contents M202 Logic Latch Module.jpg
-Wiki page: [M202](../../../../PAGES/M202.md)
+Wiki page: [M202](../)
 
 
 - **Year:** 1979 (title block date)

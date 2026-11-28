@@ -1,5 +1,5 @@
 # 1979 - M202 - Logic Latch Module (2).pdf
-Wiki page: [M202](../../../../PAGES/M202.md)
+Wiki page: [M202](../)
 
 
 - **Year:** 1979 (module estimate (manual_issue))

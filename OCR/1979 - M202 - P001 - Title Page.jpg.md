@@ -1,5 +1,5 @@
 # 1979 - M202 - P001 - Title Page.jpg
-Wiki page: [M202](../../../../PAGES/M202.md)
+Wiki page: [M202](../)
 
 
 - **Year:** 1979 (module estimate (manual_issue))

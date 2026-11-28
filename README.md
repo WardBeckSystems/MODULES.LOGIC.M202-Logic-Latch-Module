@@ -1,6 +1,6 @@
 # M202 Logic Latch Module · Logic
 
-Ward-Beck Systems M202, 1979|12. Wiki page: [M202 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M202.html)
+Ward-Beck Systems M202, 1979|12. Wiki page: [M202 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.LOGIC.M202-Logic-Latch-Module/)
 
 | Folder | What is in it | Files |
 |---|---|---|

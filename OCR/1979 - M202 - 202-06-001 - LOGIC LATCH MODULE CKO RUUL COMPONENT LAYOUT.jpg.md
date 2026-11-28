@@ -1,5 +1,5 @@
 # 1979 - M202 - 202-06-001 - LOGIC LATCH MODULE CKO RUUL COMPONENT LAYOUT.jpg
-Wiki page: [M202](../../../../PAGES/M202.md)
+Wiki page: [M202](../)
 
 
 - **Year:** 1979 (module estimate (manual_issue))
