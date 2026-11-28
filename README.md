@@ -4,13 +4,12 @@ Ward-Beck Systems M202, 1979|12. Wiki page: [M202 on WBSps.ca](https://wardbecks
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 20 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 12 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 5 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 88 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 13 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 6 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 19 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 11 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 4 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 87 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 12 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 5 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 39 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -268,7 +267,14 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKcWU3NXgyeHNlVHc/view?resourcekey=0-nEUsqSo6oLtvya3M_AuQuQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKcWU3NXgyeHNlVHc&resourcekey=0-nEUsqSo6oLtvya3M_AuQuQ" width="240" alt="1979 - M202 - 202-04-001 - LOGIC LATCH MODULE.jpg"></a><br><sub>1979|12 · 202-04-001 - LOGIC LATCH MODULE · <a href="MECHANICAL/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
-Not on Google Drive yet: `19xx - 202-04-001.jpg`
+## 3-D model
+
+[`MECHANICAL/M202.stl`](MECHANICAL/M202.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M202)
+
+- **Size:** 41 × 178 mm panel, 165 mm deep, 3.2 mm plate (assumed: 1.6" x 7" x 6.5", the common module)
+- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M202 - front panel.svg`)
+- no drawing of the front panel: the panel is blank
+- Made by `tools/module_models.py` (→ `MECHANICAL/M202.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
 
 ## Schematics
 
@@ -282,8 +288,6 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 ## Pinouts
 
 _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and rear views, strapping), and the pinout / connections drawings made from them. The module root `RTO.json` lists every contact._
-
-Not on Google Drive yet: `M202 - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
@@ -306,8 +310,6 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKclhYMVV5Ri1nQTA/view?resourcekey=0-Nhgs0mA504IkdIWlSv37iA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKclhYMVV5Ri1nQTA&resourcekey=0-Nhgs0mA504IkdIWlSv37iA" width="240" alt="1979 - M202 - p8.jpg"></a><br><sub>1979|12 · p8</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbENjVkJidjBSOGM/view?resourcekey=0-v5jVcql0m6gDCzhTAHJzkQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbENjVkJidjBSOGM&resourcekey=0-v5jVcql0m6gDCzhTAHJzkQ" width="240" alt="1979 - M202 - p9.jpg"></a><br><sub>1979|12 · p9</sub></td></tr>
 </table>
 
-Not on Google Drive yet: `1979 - M202 - Table of Contents M202 Logic Latch Module.jpg`
-
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
@@ -317,7 +319,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1979 - M202 - Logic Latch Module p9.kicad_sch](KICAD/1979%20-%20M202%20-%20Logic%20Latch%20Module%20p9.kicad_sch)
 - [19xx - M202 - Integrated Circuit Data 74C76 Dual J-K Flip-Flop.kicad_sch](KICAD/19xx%20-%20M202%20-%20Integrated%20Circuit%20Data%2074C76%20Dual%20J-K%20Flip-Flop.kicad_sch)
 - [M202.kicad_sym](KICAD/M202.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
